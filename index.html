@@ -8,8 +8,7 @@
 <header>
   <img src = "assets/logo/comigo-logo-black.png" alt = "Comigo Logo">
   <h1>Comigo</h1>
-  <nav role = "menubar">
-    <h6 class = "hidden">Comigo - Main Menu</h6>
+  <nav role = "menubar" aria-label = "Comigo - Main Menu">
     <ul>
       <li role = "menuitem">
         <a href = "Home.html">Home</a>
@@ -33,10 +32,10 @@
   </nav>
 </header>
 <main role = "main">
-  <article>
+  <aside>
     <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
     <button>SCHEDULE A DEMO</button>
-  </article>
+  </aside>
   <article>
     <h3>Why Comigo</h3>
     <p>Creating a TV that understands, with automatic metadata enrichment and Artificial
@@ -52,7 +51,7 @@
       </video>
       <h3>Engage Viewers</h3>
       <p>with highly-relevant contextual services</p>
-      <section>
+      <section aria-label = "Comigo features">
         <ul>
           <li class = "backgroundText">Pedia</li>
           <li class = "backgroundText">Participation</li>
@@ -63,11 +62,15 @@
         </ul>
       </section>
       <section>
-        <p>Drive stickiness by</p>
-        <img src = "assets/services/pedia.png" alt = "sports data">
+        <figure>
+          <figcaption>
+            Drive stickiness by enriching content with contextual data from external sources
+          </figcaption>
+          <img src = "assets/services/pedia.png" alt = "sports data">
+        </figure>
       </section>
     </section>
-    <section>
+    <section aria-label = "Comigo advantages">
       <!--don't put section within section-->
       <aside>
         <img src = "assets/other/home-tv-service-bg1.png" alt = "circuit board background image">
@@ -82,18 +85,21 @@
         <button>Deploy on Android</button>
       </aside>
     </section>
+    <section>
+      <h3>Your content Comigo's Unique experience</h3>
+      <p>Intelligence-based Lorem ipsum dolor.</p>
+      <button>Learn More</button>
+      <aside>
+        <img src = "assets/other/screen_whos_on.jpg" alt = "tv demo screenshot">
+      </aside>
+    </section>
   </article>
   <article>
-    <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
-  </article>
-  <p>Lorem ipsum dolor sit amet.</p>
-  <button>Lorem ipsum.</button>
-  <img src = "assets/other/screen_whos_on.jpg" alt = "tv demo screenshot">
-  <article>
-    <h3>LEARN MORE ABOUT TV AI</h3>
-  </article>
-  <article>
-    <h6>Download the Whitepaper</h6>
+    <h3>LEARN MORE ABOUT COMIGO</h3>
+    <a href = "assets/other/brochure">
+      <img id = "download icon" src = "assets/other/lnr-download.svg" alt = "download icon">
+      <p>Download our brochure to learn more</p>
+    </a>
   </article>
   <article>
     <h3>SCHEDULE A DEMO</h3>
@@ -109,12 +115,13 @@
     <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
   </article>
 </main>
-<nav>
+<nav id = "blogroll">
   <h3>Our Blog</h3>
   <p>the inside view</p>
   <section>
     <img src = "assets/blog/ibc_post_EI-750x508.png" alt = "ferris wheel background">
-    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eum iure minus repudiandae
+    <h6>sit amet, consectetur adipisicing elit. Cumque eum iure minus
+        repudiandae
         voluptatum?</h6>
   </section>
   <section>
@@ -141,7 +148,7 @@
         reprehenderit, sit voluptates.</h6>
   </section>
 </nav>
-<nav>
+<nav aria-label = "Comigo site map">
   <ul>
     <li><a href = "">Home</a></li>
     <li><a href = "">Partners</a></li>
@@ -163,7 +170,6 @@
     <li><a href = "">Contact Us</a></li>
   </ul>
   <header>
-    <h6 class = "hidden">Comigo site map</h6>
     <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
   </header>
 </nav>
