@@ -8,60 +8,82 @@
 <header>
   <img src = "assets/logo/comigo-logo-black.png" alt = "Comigo Logo">
   <h1>Comigo</h1>
-  <nav role = "menubar" aria-label = "Comigo - Main Menu">
+  <nav aria-label = "Comigo - Main Menu">
     <ul>
-      <li role = "menuitem">
+      <li>
         <a href = "Home.html">Home</a>
       </li>
-      <li role = "menuitem">
+      <li>
         <a href = "Our.html">Our Solutions</a>
+        <ul>
+          <li>
+            <a href = "">EI Cloud</a>
+            <ul>
+              <li><a href = "">EI</a></li>
+              <li><a href = "">EI Mind</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href = "">EI Middleware</a>
+            <ul>
+              <li><a href = "">Android</a></li>
+              <li><a href = "">Comigo WhatchApp Applications</a></li>
+            </ul>
+          </li>
+          <li><a href = "">Android STB</a></li>
+        </ul>
       </li>
-      <li role = "menuitem">
+      <li>
         <a href = "Partners.html">Partners</a>
       </li>
-      <li role = "menuitem">
+      <li>
         <a href = "Industry.html">Industry Insights</a>
+        <ul>
+          <li><a href = "">Media Room</a></li>
+          <li><a href = "">Blog</a></li>
+          <li><a href = "">Industry Events</a></li>
+        </ul>
       </li>
-      <li role = "menuitem">
+      <li>
         <a href = "About.html">About</a>
       </li>
-      <li role = "menuitem">
+      <li>
         <a href = "Contact.html">Contact</a>
       </li>
     </ul>
   </nav>
 </header>
-<main role = "main">
+<main>
   <aside>
     <figure>
-      <img src = "assets/main-bg/home-featured-bg.png" width = "100%" alt = "star background">
+      <!--<img src = "assets/main-bg/home-featured-bg.png" alt = "star background">-->
       <img src = "assets/main-bg/home-brain-image-new-1920x816.png"
-           width = "100%"
+           style = "background: url('assets/main-bg/home-featured-bg.png'); width: 100%"
            alt = "brain overlay">
-      <img src = "assets/main-bg/home-featured-shine1.png"
-           width = "100%"
-           alt = "brain glow 1">
-      <img src = "assets/main-bg/home-featured-shine2.png"
-           width = "100%"
-           alt = "brain glow 2">
-      <img src = "assets/main-bg/home-featured-shine3.png"
-           width = "100%"
-           alt = "brain glow 3">
-      <img src = "assets/main-bg/home-featured-shine4.png"
-           width = "100%"
-           alt = "brain glow 4">
-      <img src = "assets/main-bg/home-featured-shine5.png"
-           width = "100%"
-           alt = "brain glow 5">
-      <img src = "assets/main-bg/home-featured-shine6.png"
-           width = "100%"
-           alt = "brain glow 6">
-      <img src = "assets/main-bg/home-featured-shine7.png"
-           width = "100%"
-           alt = "brain glow 7">
-      <img src = "assets/main-bg/home-featured-shine8.png"
-           width = "100%"
-           alt = "brain glow 8">
+      <!--<img src = "assets/main-bg/home-featured-shine1.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 1">-->
+      <!--<img src = "assets/main-bg/home-featured-shine2.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 2">-->
+      <!--<img src = "assets/main-bg/home-featured-shine3.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 3">-->
+      <!--<img src = "assets/main-bg/home-featured-shine4.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 4">-->
+      <!--<img src = "assets/main-bg/home-featured-shine5.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 5">-->
+      <!--<img src = "assets/main-bg/home-featured-shine6.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 6">-->
+      <!--<img src = "assets/main-bg/home-featured-shine7.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 7">-->
+      <!--<img src = "assets/main-bg/home-featured-shine8.png"-->
+      <!--width = "100%"-->
+      <!--alt = "brain glow 8">-->
     </figure>
     <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
     <button>SCHEDULE A DEMO</button>
@@ -88,7 +110,7 @@
           <li class = "backgroundText">Customize</li>
         </ul>
       </section>
-      <section>
+      <section aria-label = "Enrich content demo">
         <figure>
           <figcaption>
             Drive stickiness by enriching content with contextual data from external sources
@@ -124,7 +146,7 @@
   <article>
     <h3>LEARN MORE ABOUT COMIGO</h3>
     <a href = "assets/other/brochure">
-      <img id = "download icon" src = "assets/other/lnr-download.svg" alt = "download icon">
+      <img id = "downloadIcon" src = "assets/other/lnr-download.svg" alt = "download icon">
       <p>Download our brochure to learn more</p>
     </a>
   </article>
@@ -137,7 +159,10 @@
     <!--TODO social icons-->
   </article>
   <article>
-    <h4>SCHEDULE A MEETING</h4>
+    <div id = "fadeBackground">
+      <h4>SCHEDULE A MEETING</h4>
+    </div>
+    <img src = "assets/main-bg/home-featured-bg.png" alt = "star background">
     <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
   </article>
 </main>
@@ -206,10 +231,8 @@
 <footer>
   <p>All rights reserved Comigo © 2016 </p>
   <ul>
-    <li><a href = "">Terms of Use</a></li>
-    |
-    <li><a href = "">Contact Us</a></li>
-    |
+    <li><a href = "">Terms of Use |</a></li>
+    <li><a href = "">Contact Us |</a></li>
     <li><a href = "">Privacy Policy</a></li>
   </ul>
   <p>Developed by Michael Salaverry</p>
