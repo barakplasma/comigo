@@ -6,7 +6,7 @@
 </head>
 <body>
 <header>
-  <img src = "assets/logo/comigo-logo-black.png" alt = "Comigo Logo">
+  <a href = "index.html"><img src = "assets/logo/comigo-logo-black.png" alt = "Comigo Logo"></a>
   <h1>Comigo</h1>
   <nav aria-label = "Comigo - Main Menu">
     <ul>
@@ -54,7 +54,7 @@
   </nav>
 </header>
 <main>
-  <aside>
+  <header>
     <figure>
       <!--<img src = "assets/main-bg/home-featured-bg.png" alt = "star background">-->
       <img src = "assets/main-bg/home-brain-image-new-1920x816.png"
@@ -86,8 +86,10 @@
       <!--alt = "brain glow 8">-->
     </figure>
     <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
-    <button>SCHEDULE A DEMO</button>
-  </aside>
+    <!--button/link below depends on what it does; if it needs JS, button. If it doesn't need JS,
+    link-->
+    <a href = "#contact" class = "button">SCHEDULE A DEMO</a>
+  </header>
   <article itemscope itemtype = "http://schema.org/SoftwareApplication">
     <h3>Why <span itemprop = "name">Comigo</span></h3>
     <p itemprop = "description">Creating a TV that understands, with <span itemprop = "featureList">automatic metadata enrichment</span>
@@ -150,19 +152,19 @@
       </section>
     </section>
     <section aria-label = "Comigo advantages">
-      <!--don't put section within section-->
-      <aside>
+      <!--don't put section within section in general-->
+      <section>
         <img src = "assets/other/home-tv-service-bg1.png" alt = "circuit board background image">
         <h3>ENHANCE ANY SERVICE</h3>
         <p>Comigo Experience Intelligence (EI)</p>
         <button>Enhance your OTT TV</button>
-      </aside>
-      <aside>
+      </section>
+      <section>
         <img src = "assets/other/ic-stb-screens.png" alt = "tv ipad and android stb">
         <h3>DEPLOY BEST IN CLASS TV SERVICE</h3>
         <p>Comigo's <span itemprop = "operatingSystem">Android</span>-based STB</p>
         <button>Deploy on Android</button>
-      </aside>
+      </section>
     </section>
     <section>
       <h3>Your content Comigo's Unique experience</h3>
@@ -183,20 +185,22 @@
     </a>
   </article>
   <article>
-    <h3>SCHEDULE A DEMO</h3>
-    <img src = "assets/other/screen_demo.jpg"
-         alt = "demo screenshot">
+    <a href = "#contact">
+      <h3>SCHEDULE A DEMO</h3>
+      <img src = "assets/other/screen_demo.jpg"
+           alt = "demo screenshot">
+    </a>
   </article>
   <article aria-label = "social icons">
     <!--TODO social icons-->
   </article>
-  <article>
+  <section>
     <div id = "fadeBackground">
       <h4>SCHEDULE A MEETING</h4>
     </div>
     <img src = "assets/main-bg/home-featured-bg.png" alt = "star background">
     <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
-  </article>
+  </section>
 </main>
 <nav id = "blogroll">
   <h3>Our Blog</h3>
