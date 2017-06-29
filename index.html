@@ -6,8 +6,15 @@
 </head>
 <body>
 <header>
-  <a href = "index.html"><img src = "assets/logo/comigo-logo-black.png" alt = "Comigo Logo"></a>
-  <h1>Comigo</h1>
+
+  <h1>
+    <!--TODO code formatting of equal sign-->
+    <a href="index.html"><img src="assets/logo/comigo-logo-black.png"
+                              alt="Comigo Logo">
+      Comigo
+    </a>
+  </h1>
+
   <nav aria-label = "Comigo - Main Menu">
     <ul>
       <li>
@@ -53,8 +60,10 @@
     </ul>
   </nav>
 </header>
+
 <main>
   <header>
+    <!--TODO break out this figure into a background element without the comments-->
     <figure>
       <!--<img src = "assets/main-bg/home-featured-bg.png" alt = "star background">-->
       <img src = "assets/main-bg/home-brain-image-new-1920x816.png"
@@ -85,23 +94,36 @@
       <!--width = "100%"-->
       <!--alt = "brain glow 8">-->
     </figure>
-    <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
+    <h1>Make your OTT shine with the Experience Intelligence Cloud</h1>
     <!--button/link below depends on what it does; if it needs JS, button. If it doesn't need JS,
     link-->
     <a href = "#contact" class = "button">SCHEDULE A DEMO</a>
   </header>
+
   <article itemscope itemtype = "http://schema.org/SoftwareApplication">
+    <!-- TODO heading levels moved up, so should be h2 -->
     <h3>Why <span itemprop = "name">Comigo</span></h3>
-    <p itemprop = "description">Creating a TV that understands, with <span itemprop = "featureList">automatic metadata enrichment</span>
-                                and <span itemprop = "applicationCategory">Artificial
-                                     Intelligence</span>(AI)</p>
-    <button>LEARN MORE</button>
+
+    <p itemprop="description">
+      Creating a TV that understands, with
+      <span itemprop="featureList">automatic metadata enrichment</span>
+      and <span itemprop="applicationCategory">Artificial Intelligence</span>(AI)
+    </p>
+
+    <a href="#contact"
+       class="button">LEARN MORE</a>
+
     <section>
+      <!-- TODO Missing all otehr videos, propbably part of the content -->
       <video src = "assets/videos/video-soccer_2.mp4" autoplay muted loop>
         Sorry, your browser doesn't support embedded videos
       </video>
+
+      <!-- TODO Write the whole text -->
       <h3>Engage Viewers</h3>
+
       <p>with highly-relevant contextual services</p>
+      <!--TODO move child figures into parent list (split them later using css-->
       <section aria-label = "Comigo features">
         <ul itemprop = "featureList">
           <li class = "backgroundText">Pedia</li>
@@ -112,6 +134,7 @@
           <li class = "backgroundText">Customize</li>
         </ul>
       </section>
+
       <section itemprop = "featureList" aria-label = "Enrich content demo">
         <figure>
           <figcaption>
@@ -151,25 +174,28 @@
         </figure>
       </section>
     </section>
-    <section aria-label = "Comigo advantages">
-      <!--don't put section within section in general-->
-      <section>
+
+    <section aria-label="Comigo solutions">
+      <div>
         <img src = "assets/other/home-tv-service-bg1.png" alt = "circuit board background image">
         <h3>ENHANCE ANY SERVICE</h3>
         <p>Comigo Experience Intelligence (EI)</p>
+        <!--TODO link buttons, find everywhere else as well-->
         <button>Enhance your OTT TV</button>
-      </section>
-      <section>
+      </div>
+      <div>
         <img src = "assets/other/ic-stb-screens.png" alt = "tv ipad and android stb">
         <h3>DEPLOY BEST IN CLASS TV SERVICE</h3>
         <p>Comigo's <span itemprop = "operatingSystem">Android</span>-based STB</p>
         <button>Deploy on Android</button>
-      </section>
+      </div>
     </section>
+
     <section>
       <h3>Your content Comigo's Unique experience</h3>
       <p>Intelligence-based Lorem ipsum dolor.</p>
       <button>Learn More</button>
+
       <aside>
         <img itemprop = "screenshot"
              src = "assets/other/screen_whos_on.jpg"
@@ -177,6 +203,7 @@
       </aside>
     </section>
   </article>
+
   <article>
     <h3>LEARN MORE ABOUT COMIGO</h3>
     <a href = "assets/other/brochure">
@@ -184,6 +211,7 @@
       <p>Download our brochure to learn more</p>
     </a>
   </article>
+
   <article>
     <a href = "#contact">
       <h3>SCHEDULE A DEMO</h3>
@@ -191,9 +219,17 @@
            alt = "demo screenshot">
     </a>
   </article>
-  <article aria-label = "social icons">
+
+  <section aria-label="social icons">
     <!--TODO social icons-->
-  </article>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </section>
+
   <section>
     <div id = "fadeBackground">
       <h4>SCHEDULE A MEETING</h4>
@@ -202,10 +238,14 @@
     <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
   </section>
 </main>
+
 <nav id = "blogroll">
   <h3>Our Blog</h3>
   <p>the inside view</p>
+
+  <!-- TODO consider a list-->
   <a href = "" target = "_self">
+    <!--TODO consider background-->
     <img src = "assets/blog/ibc_post_EI-750x508.png" alt = "ferris wheel background">
     <p>sit amet, consectetur adipisicing elit. Cumque eum iure minus
        repudiandae
@@ -254,7 +294,11 @@
     </aside>
   </a>
 </nav>
-<nav aria-label = "Comigo site map">
+
+<img src="assets/logo/comigo-logo-white.png"
+     alt="Comigo Logo White">
+
+<footer>
   <ul>
     <li><a href = "">Home</a></li>
     <li><a href = "">Partners</a></li>
@@ -275,11 +319,7 @@
     </li>
     <li><a href = "">Contact Us</a></li>
   </ul>
-  <header>
-    <img src = "assets/logo/comigo-logo-white.png" alt = "Comigo Logo White">
-  </header>
-</nav>
-<footer>
+  <!--TODO address here-->
   <p>No rights deserved Michael Salaverry</p>
   <ul>
     <li><a href = "">Terms of Use |</a></li>
