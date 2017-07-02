@@ -64,6 +64,9 @@ footer {
 }
 
 .button, .button:visited {
+  /*fix for button padding leaking out of parent div : https://stackoverflow.com/a/15425088/7798922*/
+  display: inline-block;
+  margin: 10px;
   border-radius: 1.7em;
   text-transform: uppercase;
   cursor: pointer;
