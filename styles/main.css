@@ -58,3 +58,46 @@ footer {
   background-color: #f14848;
   color: #fff;
 }
+
+.white {
+  background-color: #fff;
+  color: #f14848;
+}
+
+.whiteBackground {
+  background-image: url('../assets/other/home-tv-service-bg2.png');
+}
+
+.redBackground {
+  background-image: url("../assets/other/home-tv-service-bg1.png");
+}
+
+.starBackground {
+  background-image: url('../assets/main-bg/home-featured-bg.png');
+}
+
+#blogroll {
+  background-color: #f14848;
+  color: white;
+}
+
+#blogroll ul li:nth-child(1) {
+  background-image: url("../assets/blog/ibc_post_EI-750x508.png");
+}
+
+#blogroll ul li:nth-child(2) {
+  background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
+}
+
+#blogroll ul li:nth-child(3) {
+  background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
+}
+
+#blogroll ul li:nth-child(4) {
+  background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
+}
+
+#blogroll ul li:nth-child(5) {
+  background-image: url("../assets/blog/post_quality-750x508.jpeg");
+}
+
