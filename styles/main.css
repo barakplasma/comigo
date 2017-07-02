@@ -1,5 +1,5 @@
 /* Assignment https://wix-kickstart-2017.slack.com/archives/C5G408NHK/p1498988623606960 */
-/*- TODO Add background for the footer*/
+
 /*- TODO Update all links in Comigo to have proper colors based on the live website*/
 /*- TODO Handle Hover and Focus*/
 /*- TODO Make sure visited links look the same as non-visited links*/
@@ -10,3 +10,9 @@
     display: none;
   }
 }
+
+/*- Add background for the footer*/
+footer {
+  background-color: #8A8A8A;
+}
+
