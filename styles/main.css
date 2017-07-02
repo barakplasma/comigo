@@ -38,11 +38,15 @@ footer > ul > li {
   color: #fff;
 }
 
+footer > ul > li > a:hover {
+  color: inherit;
+}
+
 footer > ul > li > ul {
   color: #7a7a7a;
 }
 
-footer > span {
+footer span {
   color: #636363;
 }
 
