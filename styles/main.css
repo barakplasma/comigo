@@ -133,3 +133,7 @@ footer {
 .uppercased, #blogroll .uppercased {
   text-transform: uppercase;
 }
+
+#fadeBackground {
+  background: linear-gradient(to right, white, transparent);
+}
