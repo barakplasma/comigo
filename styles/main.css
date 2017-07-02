@@ -59,6 +59,10 @@ footer {
   color: #636363;
 }
 
+.footerBottom a:hover {
+  color: white;
+}
+
 .button, .button:visited {
   border-radius: 1.7em;
   text-transform: uppercase;
