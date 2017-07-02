@@ -1,23 +1,29 @@
 /* Assignment https://wix-kickstart-2017.slack.com/archives/C5G408NHK/p1498988623606960 */
-
-
-/*- TODO Handle Hover and Focus*/
-/*- TODO Make sure visited links look the same as non-visited links*/
-/*- TODO Remove links underline*/
-
 @media (max-width: 700px) {
   nav {
     display: none;
   }
 }
 
-/*- Add background for the footer*/
+/*- Add background for the footer */
 footer {
   /* http://www.comigo.com/ #page > div > footer background-color */
   background-color: #1e2024;
 }
 
-/*- all links in Comigo have proper colors based on the live website */
 a {
+  /*- all links in Comigo have proper colors based on the live website */
   color: #3d3d3d;
+  /*- Remove links underline */
+  text-decoration: none;
+}
+
+/*- Make sure visited links look the same as non-visited links */
+a:visited {
+  color: inherit;
+}
+
+/*- Handle Hover and Focus */
+a:hover, a:focus {
+  color: #f14848;
 }
