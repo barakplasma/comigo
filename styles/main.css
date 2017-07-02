@@ -76,9 +76,18 @@ footer {
   background-image: url('../assets/main-bg/home-featured-bg.png');
 }
 
+/*blogroll rules*/
 #blogroll {
   background-color: #f14848;
   color: white;
+}
+
+#blogroll a:hover {
+  color: white;
+}
+
+#blogroll p {
+  text-transform: capitalize;
 }
 
 #blogroll ul li:nth-child(1) {
@@ -101,3 +110,10 @@ footer {
   background-image: url("../assets/blog/post_quality-750x508.jpeg");
 }
 
+#blogroll p:nth-child(2) {
+  background-color: #f14848;
+}
+
+.uppercased, #blogroll .uppercased {
+  text-transform: uppercase;
+}
