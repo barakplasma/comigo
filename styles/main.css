@@ -5,6 +5,10 @@
   }
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 /*- Add background for the footer */
 footer {
   /* http://www.comigo.com/ #page > div > footer background-color */
