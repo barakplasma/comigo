@@ -123,6 +123,7 @@ footer {
 
 #blogroll p {
   text-transform: capitalize;
+  text-align: left;
 }
 
 #blogroll ul li:nth-child(1) {
