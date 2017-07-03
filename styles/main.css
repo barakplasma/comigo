@@ -25,7 +25,7 @@ a {
 
 /*- Make sure visited links look the same as non-visited links */
 /*https://stackoverflow.com/a/5890780/7798922*/
-a:link, a:visited, a:active, a:hover {
+a:link, a:visited, a:active, a:hover, a:focus {
   color: inherit;
 }
 
@@ -38,7 +38,8 @@ footer > ul > li {
   color: #fff;
 }
 
-footer > ul > li > a:hover {
+footer > ul > li > a:hover,
+footer > ul > li > a:focus {
   color: inherit;
 }
 
@@ -59,7 +60,8 @@ footer {
   color: #636363;
 }
 
-.footerBottom a:hover {
+.footerBottom a:hover,
+.footerBottom a:focus {
   color: white;
 }
 
@@ -98,7 +100,8 @@ footer {
   color: white;
 }
 
-#blogroll a:hover {
+#blogroll a:hover,
+#blogroll a:focus {
   color: white;
 }
 
