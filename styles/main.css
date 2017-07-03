@@ -169,7 +169,61 @@ footer {
 
 /* TODO Add all backgrounds (use some random `height` and `width` if needed, don’t worry about the exact layout, try `%`)*/
 
-/*- TODO Center headline and texts based on the screenshots*/
-header h1 {
+/*- Center headline and texts based on the screenshots*/
+main header {
+  text-align: center;
+}
 
+.summaryCard {
+  width: 100%;
+}
+
+.summaryCard:not(aside) {
+  text-align: center;
+}
+
+.summaryCard aside {
+  text-align: right;
+}
+
+.tal {
+  text-align: left;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.videoFeaturesSection h2 {
+  text-transform: uppercase;
+}
+
+.videoFeaturesSection > section > ul > li {
+  text-align: center;
+}
+
+.comigoSolutions {
+  width: 50%;
+}
+
+.redBackground {
+  text-align: center;
+}
+
+.whiteBackground {
+  text-align: left;
+}
+
+p {
+  color: grey;
+}
+
+footer li {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
