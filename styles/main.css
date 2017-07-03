@@ -166,3 +166,10 @@ footer {
 #fadeBackground {
   background: linear-gradient(to right, white, transparent);
 }
+
+/* TODO Add all backgrounds (use some random `height` and `width` if needed, don’t worry about the exact layout, try `%`)*/
+
+/*- TODO Center headline and texts based on the screenshots*/
+header h1 {
+
+}
