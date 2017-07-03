@@ -47,6 +47,7 @@ a:hover, a:focus {
 color: #f14848;
 }
 
+/*consider adding uppercase class to protect against mistakes*/
 footer > ul > li {
   color: #fff;
 }
@@ -72,7 +73,7 @@ footer {
   background-color: #151515;
   color: #636363;
 }
-
+/*rearrange css to fit the same order as the html*/
 .footerBottom a:hover,
 .footerBottom a:focus {
   color: white;
@@ -80,8 +81,8 @@ footer {
 
 .button, .button:visited {
   /*fix for button padding leaking out of parent div : https://stackoverflow.com/a/15425088/7798922*/
-  display: inline-block;
-  margin: 10px;
+  /*display: inline-block;*/
+  /*margin: 10px;*/
   border-radius: 1.7em;
   text-transform: uppercase;
   cursor: pointer;
@@ -89,7 +90,7 @@ footer {
   background-color: #f14848;
   color: #fff;
 }
-
+/*todo rename based on main secondary or content,, not on an implicit property like color*/
 .white {
   background-color: #fff;
   color: #f14848;
@@ -110,16 +111,22 @@ footer {
   background-repeat: no-repeat;
 }
 
+/*todo simplify so that gradient is black, and default like this*/
+.starBackground div ~ * {
+  text-align: center;
+  color: white;
+}
+
 /*blogroll rules*/
 #blogroll {
   background-color: #f14848;
   color: white;
 }
 
-#blogroll a:hover,
-#blogroll a:focus {
-  color: white;
-}
+/*#blogroll a:hover,*/
+/*#blogroll a:focus {*/
+  /*color: white;*/
+/*}*/
 
 #blogroll p {
   text-transform: capitalize;
@@ -127,34 +134,30 @@ footer {
   color: white;
 }
 
+#blogroll ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #blogroll ul li:nth-child(1) {
   background-image: url("../assets/blog/ibc_post_EI-750x508.png");
-  background-repeat: no-repeat;
-
 }
 
 #blogroll ul li:nth-child(2) {
   background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
-  background-repeat: no-repeat;
-
 }
 
 #blogroll ul li:nth-child(3) {
   background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
-  background-repeat: no-repeat;
-
 }
 
 #blogroll ul li:nth-child(4) {
   background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
-  background-repeat: no-repeat;
-
 }
 
 #blogroll ul li:nth-child(5) {
   background-image: url("../assets/blog/post_quality-750x508.jpeg");
-  background-repeat: no-repeat;
-
 }
 
 #blogroll p:nth-child(2) {
@@ -173,6 +176,13 @@ footer {
 
 /*- Center headline and texts based on the screenshots*/
 main header {
+  height: 550px;
+  text-align: center;
+  /*https://developer.mozilla.org/en/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds*/
+  background-image: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+  background-size: cover;
+  color: white;
   text-align: center;
 }
 
@@ -194,6 +204,20 @@ main header {
 
 h2 {
   text-transform: uppercase;
+}
+
+/*TODO handle margin on the bdy*/
+/*todo font weight and margin on h1*/
+
+.videoFeaturesSection{
+  background: url("../assets/videos/video-army-helicopters-750x422.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  color: white;
+}
+
+.videoFeaturesSection p{
+  color: white;
 }
 
 .videoFeaturesSection h2 {
