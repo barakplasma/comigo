@@ -179,10 +179,13 @@ main header {
   height: 550px;
   text-align: center;
   /*https://developer.mozilla.org/en/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds*/
+  /*todo more background images here*/
   background-image: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
   /*https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
-  background-size: cover;
+  background-size: contain, cover;
+  background-repeat: no-repeat;
   color: white;
+  /*fix warning here*/
   text-align: center;
 }
 
