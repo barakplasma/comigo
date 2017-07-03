@@ -29,10 +29,19 @@ a:link, a:visited, a:active, a:hover, a:focus {
   color: inherit;
 }
 
-/*- Handle Hover and Focus */
-a:hover, a:focus {
-  color: #f14848;
+/*menu background color change*/
+/*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*/
+nav ul ul a:hover,
+nav ul ul a:focus {
+  outline: none;
+  background-color: #f14848;
+  color: white;
 }
+
+/*!*- Handle Hover and Focus *!*/
+/*a:hover, a:focus {*/
+/*color: #f14848;*/
+/*}*/
 
 footer > ul > li {
   color: #fff;
