@@ -6,3 +6,6 @@ nav ul ul a:focus {
   background-color: #f14848;
   color: white;
 }
+
+/* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
+/*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
