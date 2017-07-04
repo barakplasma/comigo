@@ -91,28 +91,28 @@ footer {
   color: #fff;
 }
 /*todo rename based on main secondary or content,, not on an implicit property like color*/
-.white {
+.enhanceOTTButton {
   background-color: #fff;
   color: #f14848;
 }
 
-.whiteBackground {
+.whiteTextureBackground {
   background-image: url('../assets/other/home-tv-service-bg2.png');
   background-repeat: no-repeat;
 }
 
-.redBackground {
+.redCircuitBoardImageBG {
   background-image: url("../assets/other/home-tv-service-bg1.png");
   background-repeat: no-repeat;
 }
 
-.starBackground {
+.starfieldImageBackground {
   background-image: url('../assets/main-bg/home-featured-bg.png');
   background-repeat: no-repeat;
 }
 
 /*todo simplify so that gradient is black, and default like this*/
-.starBackground div ~ * {
+.starfieldImageBackground div ~ * {
   text-align: center;
   color: white;
 }
@@ -168,7 +168,7 @@ footer {
   text-transform: uppercase;
 }
 
-#fadeBackground {
+.fadeBackground {
   background: linear-gradient(to right, white, transparent);
 }
 
@@ -235,11 +235,11 @@ h2 {
   width: 50%;
 }
 
-.redBackground {
+.redCircuitBoardImageBG {
   text-align: center;
 }
 
-.whiteBackground {
+.whiteTextureBackground {
   text-align: left;
 }
 
