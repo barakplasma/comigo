@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-#currentPage {
+.currentPage {
   color: #f14848;
   font-weight: bold;
 }
