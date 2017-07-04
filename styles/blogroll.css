@@ -1,5 +1,5 @@
 /*blogroll rules*/
-.blogroll {
+.blog_roll {
   background-color: #f14848;
   color: white;
 }
@@ -9,38 +9,39 @@
 /*color: white;*/
 /*}*/
 
-.blogroll p {
+.blog_roll p {
   text-transform: capitalize;
   text-align: left;
   color: white;
 }
 
-.blogroll ul li {
+/*noinspection CssOptimizeSimilarProperties,CssOptimizeSimilarProperties*/
+.blog_roll ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.blogroll ul li:nth-child(1) {
+.blog_roll ul li:nth-child(1) {
   background-image: url("../assets/blog/ibc_post_EI-750x508.png");
 }
 
-.blogroll ul li:nth-child(2) {
+.blog_roll ul li:nth-child(2) {
   background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
 }
 
-.blogroll ul li:nth-child(3) {
+.blog_roll ul li:nth-child(3) {
   background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
 }
 
-.blogroll ul li:nth-child(4) {
+.blog_roll ul li:nth-child(4) {
   background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
 }
 
-.blogroll ul li:nth-child(5) {
+.blog_roll ul li:nth-child(5) {
   background-image: url("../assets/blog/post_quality-750x508.jpeg");
 }
 
-.blogroll p:nth-child(2) {
+.blog_roll p:nth-child(2) {
   background-color: #f14848;
 }

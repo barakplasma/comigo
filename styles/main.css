@@ -1,10 +1,10 @@
 /* Assignment https://wix-kickstart-2017.slack.com/archives/C5G408NHK/p1498988623606960 */
-@import "footer.css";
-@import "blogroll.css";
-@import "backgroundImages.css";
-@import "videoFeatureSection.css";
-@import "summaryCardSection.css";
 @import "headerMenu.css";
+@import "backgroundImages.css";
+@import "summaryCardSection.css";
+@import "videoFeatureSection.css";
+@import "blogroll.css";
+@import "footer.css";
 
 @media (max-width: 700px) {
   nav {
@@ -56,7 +56,7 @@ color: #f14848;
   color: #f14848;
 }
 
-.uppercased, .blogroll .uppercased {
+.uppercased, .blog_roll .uppercased {
   text-transform: uppercase;
 }
 
@@ -65,6 +65,7 @@ color: #f14848;
 }
 
 /*- Center headline and texts based on the screenshots*/
+/*noinspection CssOptimizeSimilarProperties,CssOptimizeSimilarProperties*/
 main header {
   height: 550px;
   text-align: center;
