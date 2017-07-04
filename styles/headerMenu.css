@@ -8,9 +8,31 @@ nav ul ul a:focus {
 }
 
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
+nav .subMenu *,
+nav > ul > li > ul > li > a {
+  display: inline-block;
+  padding: .5em 0;
+  text-align: center;
+  height: 1em;
+  margin: 0;
+}
+
 nav li {
-  border: solid yellow;
-  width: 100vw;
+  display: inline;
+}
+
+nav > ul > li > ul > li > a {
+  width: 100%;
+}
+
+nav .twoSiblings a {
+  /*border: solid yellow;*/
+  width: calc(99vw / 2);
+}
+
+nav .threeSiblings a {
+  /*border: solid green;*/
+  width: calc(99vw / 3);
 }
 
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
