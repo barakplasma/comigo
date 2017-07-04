@@ -8,4 +8,9 @@ nav ul ul a:focus {
 }
 
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
+nav li {
+  border: solid yellow;
+  width: 100vw;
+}
+
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/

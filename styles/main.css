@@ -86,7 +86,11 @@ h2 {
   text-transform: uppercase;
 }
 
-/*TODO handle margin on the bdy*/
+/*handles margin on the body*/
+body {
+  margin: 0;
+  padding: 0;
+}
 /*todo font weight and margin on h1*/
 
 .comigoSolutions {
