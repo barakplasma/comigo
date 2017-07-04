@@ -118,53 +118,53 @@ footer {
 }
 
 /*blogroll rules*/
-#blogroll {
+.blogroll {
   background-color: #f14848;
   color: white;
 }
 
-/*#blogroll a:hover,*/
-/*#blogroll a:focus {*/
+/*.blogroll a:hover,*/
+/*.blogroll a:focus {*/
   /*color: white;*/
 /*}*/
 
-#blogroll p {
+.blogroll p {
   text-transform: capitalize;
   text-align: left;
   color: white;
 }
 
-#blogroll ul li {
+.blogroll ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#blogroll ul li:nth-child(1) {
+.blogroll ul li:nth-child(1) {
   background-image: url("../assets/blog/ibc_post_EI-750x508.png");
 }
 
-#blogroll ul li:nth-child(2) {
+.blogroll ul li:nth-child(2) {
   background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
 }
 
-#blogroll ul li:nth-child(3) {
+.blogroll ul li:nth-child(3) {
   background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
 }
 
-#blogroll ul li:nth-child(4) {
+.blogroll ul li:nth-child(4) {
   background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
 }
 
-#blogroll ul li:nth-child(5) {
+.blogroll ul li:nth-child(5) {
   background-image: url("../assets/blog/post_quality-750x508.jpeg");
 }
 
-#blogroll p:nth-child(2) {
+.blogroll p:nth-child(2) {
   background-color: #f14848;
 }
 
-.uppercased, #blogroll .uppercased {
+.uppercased, .blogroll .uppercased {
   text-transform: uppercase;
 }
 
