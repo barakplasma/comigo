@@ -1,0 +1,18 @@
+.videoFeaturesSection {
+  background: url("../assets/videos/video-army-helicopters-750x422.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  color: white;
+}
+
+.videoFeaturesSection p {
+  color: white;
+}
+
+.videoFeaturesSection h2 {
+  text-transform: uppercase;
+}
+
+.videoFeaturesSection > section > ul > li {
+  text-align: center;
+}

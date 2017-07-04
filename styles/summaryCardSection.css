@@ -1,0 +1,11 @@
+.summaryCard {
+  width: 100%;
+}
+
+.summaryCard:not(aside) {
+  text-align: center;
+}
+
+.summaryCard aside {
+  text-align: right;
+}

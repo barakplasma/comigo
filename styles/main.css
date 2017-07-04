@@ -1,4 +1,11 @@
 /* Assignment https://wix-kickstart-2017.slack.com/archives/C5G408NHK/p1498988623606960 */
+@import "footer.css";
+@import "blogroll.css";
+@import "backgroundImages.css";
+@import "videoFeatureSection.css";
+@import "summaryCardSection.css";
+@import "headerMenu.css";
+
 @media (max-width: 700px) {
   nav {
     display: none;
@@ -7,12 +14,6 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-/*- Add background for the footer */
-footer {
-  /* http://www.comigo.com/ #page > div > footer background-color */
-  background-color: #1e2024;
 }
 
 a {
@@ -33,50 +34,9 @@ a:link, a:visited, a:active, a:hover, a:focus {
   color: inherit;
 }
 
-/*menu background color change*/
-/*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*/
-nav ul ul a:hover,
-nav ul ul a:focus {
-  outline: none;
-  background-color: #f14848;
-  color: white;
-}
-
 /*- Handle Hover and Focus */
 a:hover, a:focus {
 color: #f14848;
-}
-
-/*consider adding uppercase class to protect against mistakes*/
-footer > ul > li {
-  color: #fff;
-}
-
-footer > ul > li > a:hover,
-footer > ul > li > a:focus {
-  color: inherit;
-}
-
-footer > ul > li > ul {
-  color: #7a7a7a;
-}
-
-footer span {
-  color: #636363;
-}
-
-footer {
-  background-color: #1E2024;
-}
-
-.footerBottom {
-  background-color: #151515;
-  color: #636363;
-}
-/*rearrange css to fit the same order as the html*/
-.footerBottom a:hover,
-.footerBottom a:focus {
-  color: white;
 }
 
 .button, .button:visited {
@@ -96,74 +56,6 @@ footer {
   color: #f14848;
 }
 
-.whiteTextureBackground {
-  background-image: url('../assets/other/home-tv-service-bg2.png');
-  background-repeat: no-repeat;
-}
-
-.redCircuitBoardImageBG {
-  background-image: url("../assets/other/home-tv-service-bg1.png");
-  background-repeat: no-repeat;
-}
-
-.starfieldImageBackground {
-  background-image: url('../assets/main-bg/home-featured-bg.png');
-  background-repeat: no-repeat;
-}
-
-/*todo simplify so that gradient is black, and default like this*/
-.starfieldImageBackground div ~ * {
-  text-align: center;
-  color: white;
-}
-
-/*blogroll rules*/
-.blogroll {
-  background-color: #f14848;
-  color: white;
-}
-
-/*.blogroll a:hover,*/
-/*.blogroll a:focus {*/
-  /*color: white;*/
-/*}*/
-
-.blogroll p {
-  text-transform: capitalize;
-  text-align: left;
-  color: white;
-}
-
-.blogroll ul li {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.blogroll ul li:nth-child(1) {
-  background-image: url("../assets/blog/ibc_post_EI-750x508.png");
-}
-
-.blogroll ul li:nth-child(2) {
-  background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
-}
-
-.blogroll ul li:nth-child(3) {
-  background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
-}
-
-.blogroll ul li:nth-child(4) {
-  background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
-}
-
-.blogroll ul li:nth-child(5) {
-  background-image: url("../assets/blog/post_quality-750x508.jpeg");
-}
-
-.blogroll p:nth-child(2) {
-  background-color: #f14848;
-}
-
 .uppercased, .blogroll .uppercased {
   text-transform: uppercase;
 }
@@ -171,8 +63,6 @@ footer {
 .fadeBackground {
   background: linear-gradient(to right, white, transparent);
 }
-
-/* TODO Add all backgrounds (use some random `height` and `width` if needed, don’t worry about the exact layout, try `%`)*/
 
 /*- Center headline and texts based on the screenshots*/
 main header {
@@ -185,20 +75,6 @@ main header {
   background-size: contain, cover;
   background-repeat: no-repeat;
   color: white;
-  /*fix warning here*/
-  text-align: center;
-}
-
-.summaryCard {
-  width: 100%;
-}
-
-.summaryCard:not(aside) {
-  text-align: center;
-}
-
-.summaryCard aside {
-  text-align: right;
 }
 
 .tal {
@@ -212,43 +88,12 @@ h2 {
 /*TODO handle margin on the bdy*/
 /*todo font weight and margin on h1*/
 
-.videoFeaturesSection{
-  background: url("../assets/videos/video-army-helicopters-750x422.jpg");
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-  color: white;
-}
-
-.videoFeaturesSection p{
-  color: white;
-}
-
-.videoFeaturesSection h2 {
-  text-transform: uppercase;
-}
-
-.videoFeaturesSection > section > ul > li {
-  text-align: center;
-}
-
 .comigoSolutions {
   width: 50%;
 }
 
-.redCircuitBoardImageBG {
-  text-align: center;
-}
-
-.whiteTextureBackground {
-  text-align: left;
-}
-
 p {
   color: grey;
-}
-
-footer li {
-  text-align: left;
 }
 
 ul {
@@ -256,3 +101,4 @@ ul {
   margin: 0;
   padding: 0;
 }
+

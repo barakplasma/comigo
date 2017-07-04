@@ -1,0 +1,30 @@
+/* TODO Add all backgrounds (use some random `height` and `width` if needed, don’t worry about the exact layout, try `%`)*/
+
+.redCircuitBoardImageBG {
+  text-align: center;
+}
+
+.whiteTextureBackground {
+  text-align: left;
+}
+
+.whiteTextureBackground {
+  background-image: url('../assets/other/home-tv-service-bg2.png');
+  background-repeat: no-repeat;
+}
+
+.redCircuitBoardImageBG {
+  background-image: url("../assets/other/home-tv-service-bg1.png");
+  background-repeat: no-repeat;
+}
+
+.starfieldImageBackground {
+  background-image: url('../assets/main-bg/home-featured-bg.png');
+  background-repeat: no-repeat;
+}
+
+/*todo simplify so that gradient is black, and default like this*/
+.starfieldImageBackground div ~ * {
+  text-align: center;
+  color: white;
+}
