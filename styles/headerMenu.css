@@ -2,8 +2,8 @@
 
 /*!*menu background color change*!*/
 /*!*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*!*/
-nav ul ul a:hover,
-nav ul ul a:focus {
+.mainMenu_subMenuLink:hover,
+.mainMenu_subMenuLink:focus {
   outline: none;
   background-color: #f14848;
   color: white;
@@ -21,14 +21,20 @@ body, nav {
 
 body > header {
   background-color: white;
+  height: 30vh;
 }
 
+/*.inlineElement {*/
+/*display: inline;*/
+/*}*/
+
 /*nav ul li a,*/
-nav ul li,
+/*nav ul li,*/
 /*nav ul,*/
-.mainMenu {
+.mainMenu,
+.mainMenu li {
   display: inline;
-  float: right;
+  text-align: right;
 }
 
 .mainMenu_listElement {
@@ -36,21 +42,23 @@ nav ul li,
 }
 
 .mainMenu_mainMenuLink {
-  display: inline;
+  display: inherit;
 }
 
 /*nav ul ul,*/
 .mainMenu_subMenu {
-  display: none;
+  display: inherit;
+  /*position: relative;*/
+  /*top: 1rem;*/
 }
 
 .mainMenu_subMenuLink {
-  display: inline;
+  display: inherit;
 }
 
 /*body header nav ul li:hover > a ~ ul*/ /*accurate, but doesn't mean shit*/
 .mainMenu_subMenu--parentHovered {
-  display: inline;
+  display: inherit;
 }
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
