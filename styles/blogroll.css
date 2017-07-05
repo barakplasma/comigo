@@ -2,6 +2,7 @@
 .blog_roll {
   background-color: #f14848;
   color: white;
+  box-sizing: border-box;
 }
 
 /*.blogroll a:hover,*/
@@ -22,6 +23,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: calc(99% / 5);
+  height: 100%;
 }
 
 .blog_roll ul li:nth-child(1) {
