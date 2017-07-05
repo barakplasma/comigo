@@ -47,7 +47,9 @@ body > header {
 
 /*nav ul ul,*/
 .mainMenu_subMenu {
-  display: inherit;
+  display: inline;
+  width: 100px;
+  height: 20px;
   /*position: relative;*/
   /*top: 1rem;*/
 }
@@ -60,5 +62,6 @@ body > header {
 .mainMenu_subMenu--parentHovered {
   display: inherit;
 }
-/* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
+
+/* Make top nav sub nav’s have width and height (don’t worry about the layout)*/
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
