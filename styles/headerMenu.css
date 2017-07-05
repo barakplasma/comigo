@@ -1,5 +1,5 @@
-/*menu background color change*/
-/*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*/
+/*!*menu background color change*!*/
+/*!*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*!*/
 nav ul ul a:hover,
 nav ul ul a:focus {
   outline: none;
@@ -7,30 +7,39 @@ nav ul ul a:focus {
   color: white;
 }
 
-/* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
-nav .subMenu *,
-nav > ul > li > ul > li > a {
-  display: inline-block;
-  padding: .5em 0;
-  text-align: center;
+body, nav {
+  box-sizing: border-box;
+  max-width: 100vw;
+  margin: 0;
 }
 
-nav li {
+header nav li {
+  /*background-color: purple;*/
+  /*border: solid 1px green;*/
   display: inline;
 }
 
-nav > ul > li > ul > li > a {
-  width: 100%;
+/* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
+header nav ul {
+  display: inline;
 }
 
-nav .twoSiblings a {
-  /*border: solid yellow;*/
-  width: calc(99vw / 2);
+header nav ul a {
+  display: inline;
+  width: 30vw;
+  /*background-color: lightpink !important;*/
 }
 
-nav .threeSiblings a {
-  /*border: solid green;*/
-  width: calc(99vw / 3);
+header nav .twoSiblings {
+  /*background-color: cornflowerblue !important;*/
+  position: relative;
+  top: 1em;
+}
+
+header nav .threeSiblings {
+  /*background-color: lawngreen !important;*/
+  position: relative;
+  top: 1em;
 }
 
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
