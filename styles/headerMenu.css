@@ -13,33 +13,27 @@ body, nav {
   margin: 0;
 }
 
-header nav li {
-  /*background-color: purple;*/
-  /*border: solid 1px green;*/
-  display: inline;
+body > header {
+  background-color: white;
 }
 
+/*nav ul li a,*/
+/*nav ul li,*/
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-content: stretch;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul:hover > li > ul,
+nav ul > li:hover > ul > li {
+  display: flex;
+}
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
-header nav ul {
-  display: inline;
-}
-
-header nav ul a {
-  display: inline;
-  width: 30vw;
-  /*background-color: lightpink !important;*/
-}
-
-header nav .twoSiblings {
-  /*background-color: cornflowerblue !important;*/
-  position: relative;
-  top: 1em;
-}
-
-header nav .threeSiblings {
-  /*background-color: lawngreen !important;*/
-  position: relative;
-  top: 1em;
-}
-
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
