@@ -4,10 +4,12 @@ footer {
   background-color: #1e2024;
 }
 
+/*.footer_miscText*/
 footer span {
   color: #636363;
 }
 
+/*.footer_menu*/
 footer li {
   text-align: left;
 }
@@ -17,22 +19,24 @@ footer > ul > li {
   color: #fff;
 }
 
+/*.footer_menuHeaderLink*/
 footer > ul > li > a:hover,
 footer > ul > li > a:focus {
   color: inherit;
 }
 
+/*.footer_subMenu*/
 footer > ul > li > ul {
   color: #7a7a7a;
 }
 
-.footerBottom {
+.footer_Bottom {
   background-color: #151515;
   color: #636363;
 }
 
 /*rearrange css to fit the same order as the html*/
-.footerBottom a:hover,
-.footerBottom a:focus {
+.footer_Bottom a:hover,
+.footer_Bottom a:focus {
   color: white;
 }

@@ -81,8 +81,10 @@ color: #f14848;
 /*- Center headline and texts based on the screenshots*/
 /*noinspection CssOptimizeSimilarProperties,CssOptimizeSimilarProperties*/
 main header {
-  height: 550px;
+  min-height: 50vw;
   text-align: center;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
   /*https://developer.mozilla.org/en/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds*/
   /*todo more background images here*/
   background-image: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
@@ -106,6 +108,10 @@ body {
   padding: 0;
 }
 /*todo font weight and margin on h1*/
+main h1 {
+  font-weight: 600;
+  /*margin: 10px 0 0 10px;*/
+}
 
 .comigoSolutions {
   width: 50%;
