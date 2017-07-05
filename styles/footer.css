@@ -11,6 +11,7 @@ footer span {
 
 /*.footer_menu*/
 footer li {
+  display: inline;
   text-align: left;
 }
 
@@ -35,8 +36,16 @@ footer > ul > li > ul {
   color: #636363;
 }
 
+.footer_Bottom * {
+  display: inline;
+}
+
 /*rearrange css to fit the same order as the html*/
 .footer_Bottom a:hover,
 .footer_Bottom a:focus {
   color: white;
+}
+
+footer .socialLinkSection {
+  /*todo align this to the right*/
 }
