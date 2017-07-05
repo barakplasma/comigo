@@ -1,4 +1,5 @@
 /* Assignment https://wix-kickstart-2017.slack.com/archives/C5G408NHK/p1498988623606960 */
+/*http://getbem.com/*/
 @import "headerMenu.css";
 @import "backgroundImages.css";
 @import "summaryCardSection.css";
@@ -16,6 +17,8 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  /* Update all fonts to use `rem` (and add `font-size: 100%` for the `html`)*/
+  font-size: 100%;
 }
 
 *, *:before, *:after {
@@ -24,6 +27,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
 }
 
 a {
