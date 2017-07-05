@@ -24,11 +24,11 @@ body > header {
 }
 
 /*nav ul li a,*/
-/*nav ul li,*/
+nav ul li,
 /*nav ul,*/
 .mainMenu {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
+  float: right;
 }
 
 .mainMenu_listElement {
@@ -36,7 +36,7 @@ body > header {
 }
 
 .mainMenu_mainMenuLink {
-
+  display: inline;
 }
 
 /*nav ul ul,*/
@@ -45,12 +45,12 @@ body > header {
 }
 
 .mainMenu_subMenuLink {
-  display: flex;
+  display: inline;
 }
 
 /*body header nav ul li:hover > a ~ ul*/ /*accurate, but doesn't mean shit*/
 .mainMenu_subMenu--parentHovered {
-  display: flex;
+  display: inline;
 }
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
