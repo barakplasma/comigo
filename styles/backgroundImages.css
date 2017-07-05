@@ -11,11 +11,13 @@
 .whiteTextureBackground {
   background-image: url('../assets/other/home-tv-service-bg2.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .redCircuitBoardImageBG {
   background-image: url("../assets/other/home-tv-service-bg1.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .starfieldImageBackground {
@@ -27,4 +29,13 @@
 .starfieldImageBackground div ~ * {
   text-align: center;
   color: white;
+}
+
+main header {
+  /*https://developer.mozilla.org/en/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds*/
+  /*todo more background images here*/
+  background-image: url("../assets/main-bg/home-brain-image-new-1920x816.png"), url("../assets/main-bg/home-featured-bg.png");
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+  background-size: contain, cover;
+  background-repeat: no-repeat;
 }
