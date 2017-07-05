@@ -7,6 +7,10 @@ nav ul ul a:focus {
   color: white;
 }
 
+body > header > h1 {
+  display: inline;
+}
+
 body, nav {
   box-sizing: border-box;
   max-width: 100vw;
@@ -22,17 +26,15 @@ body > header {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  align-content: stretch;
-  align-items: stretch;
-  flex-grow: 1;
 }
 
 nav ul ul {
   display: none;
 }
 
-nav ul:hover > li > ul,
-nav ul > li:hover > ul > li {
+body header nav ul li:hover > a ~ ul
+  /*nav ul > li:hover > ul > li > a*/
+{
   display: flex;
 }
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
