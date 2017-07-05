@@ -1,3 +1,5 @@
+/* https://css-tricks.com/bem-101/ will save your soul!!!! */
+
 /*!*menu background color change*!*/
 /*!*Thanks to https://etaybarzilay89.github.io/comigo/ for the tip that I don't want to highlight the li, I should highlight the anchor tag*!*/
 nav ul ul a:hover,
@@ -7,39 +9,40 @@ nav ul ul a:focus {
   color: white;
 }
 
+body > header > h1 {
+  display: inline;
+}
+
 body, nav {
   box-sizing: border-box;
   max-width: 100vw;
   margin: 0;
 }
 
-header nav li {
-  /*background-color: purple;*/
-  /*border: solid 1px green;*/
-  display: inline;
+body > header {
+  background-color: white;
 }
 
+/*nav ul li a,*/
+/*nav ul li,*/
+/*nav ul,*/
+.mainMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainMenu_mainMenuLink {
+
+}
+
+/*nav ul ul,*/
+.mainMenu_subMenu {
+  display: none;
+}
+
+/*body header nav ul li:hover > a ~ ul*/ /*accurate, but doesn't mean shit*/
+.mainMenu_subMenu--parentHovered {
+  display: flex;
+}
 /* TODO Make top nav sub nav’s have width and height (don’t worry about the layout)*/
-header nav ul {
-  display: inline;
-}
-
-header nav ul a {
-  display: inline;
-  width: 30vw;
-  /*background-color: lightpink !important;*/
-}
-
-header nav .twoSiblings {
-  /*background-color: cornflowerblue !important;*/
-  position: relative;
-  top: 1em;
-}
-
-header nav .threeSiblings {
-  /*background-color: lawngreen !important;*/
-  position: relative;
-  top: 1em;
-}
-
 /*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
