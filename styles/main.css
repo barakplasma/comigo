@@ -117,4 +117,9 @@ ul {
   padding: 0;
 }
 
-
+/*https://codepen.io/shshaw/full/gEiDt*/
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
