@@ -1,5 +1,7 @@
 /*blogroll rules*/
+/* Layout the Blogs section using `inline-block`*/
 .blog_roll {
+  display: inline-block;
   background-color: #f14848;
   color: white;
   box-sizing: border-box;
@@ -10,7 +12,6 @@
 /*color: white;*/
 /*}*/
 
-/* todo Layout the Blogs section using `inline-block`*/
 /*todo use proper width and height for blog roll sections based on the screenshot
  *Use `vw` to make it fluid on screen resize, keeping the same aspect ratio
  */
