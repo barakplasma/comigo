@@ -66,6 +66,7 @@ color: #f14848;
   padding: 1.2em 2em;
   background-color: #f14848;
   color: #fff;
+  line-height: 4;
 }
 /*todo rename based on main secondary or content,, not on an implicit property like color*/
 
