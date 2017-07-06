@@ -1,12 +1,14 @@
 /*blogroll rules*/
 /* Layout the Blogs section using `inline-block`*/
 .blog_roll {
-  height: calc(100vw / 2.166);
+  height: calc(100vw / 2.1666666);
   width: calc(100vw);
   display: block;
   background-color: #f14848;
   color: white;
   box-sizing: border-box;
+  overflow: hidden;
+  vertical-align: top;
 }
 
 /*.blogroll a:hover,*/
@@ -17,9 +19,15 @@
 .blogroll_header {
   display: inline-block;
   width: calc(99% / 6);
+  height: 100%;
   text-transform: capitalize;
   text-align: left;
+  vertical-align: top;
   color: white;
+}
+
+.blogroll_header * {
+  vertical-align: bottom;
 }
 
 .blog_roll * {
@@ -40,8 +48,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: calc(99% / 6);
+  width: calc(100% / 5);
   height: 100%;
+  vertical-align: top;
+}
+
+/*todo put the text on the bottom of the div*/
+.blog_roll a {
+  vertical-align: bottom;
 }
 
 .blog_roll ul li:nth-child(1) {
