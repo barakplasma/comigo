@@ -28,6 +28,8 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
+  /*Default `font-weight` should be `300`, make sure you included that weight in your Source Sans Pro font from Google*/
+  font-weight: 300;
 }
 
 a {
