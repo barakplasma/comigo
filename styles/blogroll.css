@@ -55,9 +55,11 @@
 }
 
 /*todo put the text on the bottom of the div*/
-.blog_roll a p {
+.blog_roll a p ~ p {
   position: absolute;
-  bottom: 0;
+  bottom: -2em;
+  left: 0;
+  overflow: visible;
 }
 
 .blog_roll ul li:nth-child(1) {
