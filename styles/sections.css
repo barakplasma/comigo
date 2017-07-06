@@ -1,0 +1,39 @@
+.socialLinkSection {
+
+}
+
+.uniqueExperience{
+  position: relative;
+  overflow: hidden;
+  min-height: 680px;
+  height:  calc(100vw/(840/430));
+}
+.uniqueExperience img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 20%;
+  left: 50%;
+}
+
+
+section {
+  display: block;
+}
+
+/*todo Define height for the following sections using `vw` - Solutions*/
+.comigoSolutions {
+  width: 49vw;
+  height: 50vw;
+  display: inline-block;
+}
+
+.comigoSolutions img {
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+.enhanceOTTButton {
+  background-color: #fff;
+  color: #f14848;
+}

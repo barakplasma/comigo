@@ -2,6 +2,7 @@
 /*http://getbem.com/*/
 @import "headerMenu.css";
 @import "backgroundImages.css";
+@import "sections.css";
 @import "summaryCardSection.css";
 @import "videoFeatureSection.css";
 @import "blogroll.css";
@@ -67,10 +68,7 @@ color: #f14848;
   color: #fff;
 }
 /*todo rename based on main secondary or content,, not on an implicit property like color*/
-.enhanceOTTButton {
-  background-color: #fff;
-  color: #f14848;
-}
+
 
 .uppercased, .blog_roll .uppercased {
   text-transform: uppercase;
@@ -109,18 +107,6 @@ main h1 {
   /*margin: 10px 0 0 10px;*/
 }
 
-/*todo Define height for the following sections using `vw` - Solutions*/
-.comigoSolutions {
-  width: 49vw;
-  height: 50vw;
-  display: inline-block;
-}
-
-.comigoSolutions img {
-  max-width: 25vw;
-  max-height: 25vw;
-}
-
 p {
   color: grey;
 }
@@ -131,6 +117,4 @@ ul {
   padding: 0;
 }
 
-.socialLinkSection {
 
-}
