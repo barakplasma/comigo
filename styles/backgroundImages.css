@@ -31,6 +31,8 @@
   color: white;
 }
 
+/*todo Define height for the following sections using `vw` - Intro (intro brain background) - Also use `padding-top` with `%`*/
+
 main header {
   /*https://developer.mozilla.org/en/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds*/
   /*todo more background images here*/

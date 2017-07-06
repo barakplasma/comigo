@@ -31,6 +31,7 @@ footer > ul > li > ul {
   color: #7a7a7a;
 }
 
+/*todo Footer (bottom footer) - use `text-align: justify` to align the different text to the sides (will require to wrap stuff with a `span`)*/
 .footer_Bottom {
   background-color: #151515;
   color: #636363;

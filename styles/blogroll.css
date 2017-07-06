@@ -10,7 +10,10 @@
 /*color: white;*/
 /*}*/
 
-/*TODO Blogs list - Add width and height (don’t worry about the layout), and should be clickable like mentioned above*/
+/* todo Layout the Blogs section using `inline-block`*/
+/*todo use proper width and height for blog roll sections based on the screenshot
+ *Use `vw` to make it fluid on screen resize, keeping the same aspect ratio
+ */
 
 .blog_roll p {
   text-transform: capitalize;
@@ -18,7 +21,6 @@
   color: white;
 }
 
-/*noinspection CssOptimizeSimilarProperties,CssOptimizeSimilarProperties*/
 .blog_roll ul li {
   background-position: center;
   background-repeat: no-repeat;
