@@ -21,7 +21,12 @@ body, nav {
 
 body > header {
   background-color: white;
-  height: 5vh;
+  height: calc(100vw / (1440 / 66));
+  min-height: 66px;
+}
+
+/*todo vert align in the middle*/
+body > header > * {
 }
 
 /*.inlineElement {*/
