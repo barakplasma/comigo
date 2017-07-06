@@ -54,12 +54,13 @@
   position: relative;
 }
 
-/*todo put the text on the bottom of the div*/
+/*put the text on the bottom of the div*/
+/*Position the Read More below the box, make sure to hide the overflow*/
 .blog_roll a p ~ p {
   position: absolute;
   bottom: -2em;
   left: 0;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .blog_roll ul li:nth-child(1) {

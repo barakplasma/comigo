@@ -19,6 +19,7 @@ body, nav {
   margin: 0;
 }
 
+/*todo Use `fixed` positioning on the top header to make it stick to the top of the viewport.    - Note that all content below the top header will jump up once we set it to fixed, so we’ll need to add some space to compensate for it*/
 body > header {
   background-color: white;
   height: calc(100vw / (1440 / 66));
@@ -50,6 +51,7 @@ body > header > * {
   display: inherit;
 }
 
+/*todo Hide the sub menu’s, make the links appear on the right*/
 /*nav ul ul,*/
 .mainMenu_subMenu {
   display: inline;

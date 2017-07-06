@@ -1,5 +1,5 @@
 /*todo Define height for the following sections using `vw` - Why Comigo*/
-
+/*todo Position the figure’s in the Services section, hide them all except one*/
 .videoFeaturesSection {
   background: url("../assets/videos/video-army-helicopters-750x422.jpg");
   background-repeat: repeat-y;
@@ -11,6 +11,7 @@
   color: white;
 }
 
+/*todo When hovering a heading, show the relevant figure - Note that it’s not so simple, in Comigo they use JavaScript, we probably need to show the figure that’s related to Customize and work our way up using the `~` selector (good luck :-P)*/
 .videoFeaturesSection h2 {
   text-transform: uppercase;
 }
