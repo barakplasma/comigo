@@ -16,6 +16,11 @@
   left: 50%;
 }
 
+.uniqueExperience_description {
+  height: 370px;
+  width: 67vw;
+}
+
 
 section {
   display: block;
