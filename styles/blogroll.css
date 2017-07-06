@@ -1,7 +1,9 @@
 /*blogroll rules*/
 /* Layout the Blogs section using `inline-block`*/
 .blog_roll {
-  display: inline-block;
+  height: calc(100vw / 2.166);
+  width: calc(100vw);
+  display: block;
   background-color: #f14848;
   color: white;
   box-sizing: border-box;
@@ -12,21 +14,33 @@
 /*color: white;*/
 /*}*/
 
-/*todo use proper width and height for blog roll sections based on the screenshot
- *Use `vw` to make it fluid on screen resize, keeping the same aspect ratio
- */
-
-.blog_roll p {
+.blogroll_header {
+  display: inline-block;
+  width: calc(99% / 6);
   text-transform: capitalize;
   text-align: left;
   color: white;
 }
 
+.blog_roll * {
+  display: inline-block;
+}
+
+.blog_roll ul {
+  width: calc((99% / 6) * 5);
+  height: 100%;
+}
+
+/*todo use proper width and height for blog roll sections based on the screenshot
+ *Use `vw` to make it fluid on screen resize, keeping the same aspect ratio
+ */
+/*selector for all the blog roll sections*/
 .blog_roll ul li {
+  display: inline-block;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: calc(99% / 5);
+  width: calc(99% / 6);
   height: 100%;
 }
 
