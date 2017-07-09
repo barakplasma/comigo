@@ -85,8 +85,7 @@ color: #f14848;
   background: linear-gradient(to right, white, transparent);
 }
 
-/*todo add padding-top to body to accommodate the fixed header*/
-
+/*add padding-top to main header to accommodate the body fixed header*/
 /*- Center headline and texts based on the screenshots*/
 main header {
   min-height: 50vw;
@@ -94,6 +93,7 @@ main header {
   padding-top: 20vw;
   padding-bottom: 20vw;
   color: white;
+  margin-top: calc(100vw / (1440 / 66));
 }
 
 .textAlignLeft {
