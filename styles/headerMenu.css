@@ -36,24 +36,26 @@ body > header > * {
 /*nav ul li a,*/
 /*nav ul li,*/
 /*nav ul,*/
-.mainMenu,
-.mainMenu li {
-  display: inline;
-  text-align: right;
+/*help from https://stackoverflow.com/a/20920305/7798922*/
+.mainMenu
+{
+  display: inline-block;
+  float: right;
 }
 
 .mainMenu_listElement {
-
+  float: left;
+  margin: 0 1rem;
 }
 
 .mainMenu_mainMenuLink {
   display: inherit;
 }
 
-/*todo Hide the sub menu’s, make the links appear on the right*/
+/*Hide the sub menu’s, make the links appear on the right*/
 /*nav ul ul,*/
 .mainMenu_subMenu {
-  display: inline;
+  display: none;
   width: 100px;
   height: 20px;
   /*position: relative;*/
