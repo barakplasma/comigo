@@ -1,10 +1,18 @@
-/*todo Define height for the following sections using `vw` - Why Comigo*/
-/*todo Position the figure’s in the Services section, hide them all except one*/
+/*Define height for the following sections using `vw` - Why Comigo*/
+/*Position the figure’s in the Services section, hide them all except one*/
 .videoFeaturesSection {
   background: url("../assets/videos/video-army-helicopters-750x422.jpg");
   background-repeat: repeat-y;
   background-size: 100% auto;
   color: white;
+  height: calc(100vw/(1440/577));
+  position: relative;
+}
+
+.videoFeaturesSection_leftColumn {
+  position: relative;
+  left: 15%;
+  top: 15%;
 }
 
 .videoFeaturesSection p {
@@ -16,6 +24,18 @@
   text-transform: uppercase;
 }
 
-.videoFeaturesSection > section > ul > li {
-  text-align: center;
+.videoFeaturesSection_middleColumn
+/*body > main > article.whyComigo > section.videoFeaturesSection > section*/
+{
+  display: inline;
+  position: absolute;
+  top: 15%;
+  right: 50%;
+  text-align: left;
+  list-style: none;
+}
+
+/*todo show screenshots which should appear when the li is hovered*/
+body > main > article.whyComigo > section.videoFeaturesSection > section > ul > li > figure {
+  display: none;
 }
