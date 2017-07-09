@@ -8,7 +8,8 @@
   color: white;
   box-sizing: border-box;
   /*overflow: hidden;*/
-  vertical-align: top;
+  position: relative;
+  vertical-align: bottom;
 }
 
 /*.blogroll a:hover,*/
@@ -22,7 +23,8 @@
   height: 100%;
   text-transform: capitalize;
   text-align: left;
-  vertical-align: top;
+  /*todo decrypt magical vertalign*/
+  vertical-align: bottom;
   color: white;
 }
 
@@ -54,13 +56,22 @@
   position: relative;
 }
 
-/*put the text on the bottom of the div*/
+
 /*Position the Read More below the box, make sure to hide the overflow*/
 .blog_roll a p ~ p {
   position: absolute;
   bottom: -2em;
   left: 0;
   overflow: hidden;
+}
+
+/*put the text on the bottom of the div*/
+.blog_roll p,
+.blog_roll h2
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .blog_roll ul li:nth-child(1) {
