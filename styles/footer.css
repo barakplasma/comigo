@@ -35,10 +35,11 @@ footer > ul > li > ul {
 .footer_Bottom {
   background-color: #151515;
   color: #636363;
+  height: 3rem;
 }
 
 .footer_Bottom * {
-  display: inline;
+  display: inline-block;
 }
 
 /*rearrange css to fit the same order as the html*/
@@ -47,6 +48,12 @@ footer > ul > li > ul {
   color: white;
 }
 
-footer .socialLinkSection {
-  /*todo align this to the right*/
+.footerBottom_socialIcons div {
+  border: 1px solid grey;
+  border-radius: 100%;
+  color: grey;
+  padding: 3px;
+  /*todo get social icons onto right side of bottom footer*/
+  position: relative;
+  right: 0;
 }
