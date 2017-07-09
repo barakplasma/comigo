@@ -83,12 +83,20 @@ color: #f14848;
 
 .fadeBackground {
   background: linear-gradient(to right, white, transparent);
+  height: 20%;
+}
+
+.fadeBackground h3 {
+  position: relative;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 /*add padding-top to main header to accommodate the body fixed header*/
 /*- Center headline and texts based on the screenshots*/
 main header {
-  min-height: 50vw;
+  min-height: 816px;
   text-align: center;
   padding-top: 20vw;
   padding-bottom: 20vw;

@@ -66,8 +66,26 @@ section {
   color: white;
 }
 
-body > main > article.whyComigo > section:nth-child(3) > div.comigoSolutions.redCircuitBoardImageBG > a
+/*body > main > article.whyComigo > section:nth-child(3) > div.comigoSolutions.redCircuitBoardImageBG > a*/
+.button.enhanceOTTButton
 {
   background-color: #fff;
   color: #f14848;
+}
+
+.starfieldImageBackground {
+  width: calc(100vw*.398);
+  height: calc(100vw*.206);
+  position: relative;
+}
+
+div.scheduleMeeting {
+  text-align: center;
+  position: relative;
+  bottom: -50%;
+  font-size: 1.5rem;
+}
+
+img.scheduleMeeting {
+  width: 50%;
 }

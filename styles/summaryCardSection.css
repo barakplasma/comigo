@@ -1,5 +1,7 @@
 .summaryCard {
-  width: 100%;
+  width: 100vw;
+  /*height: calc(100vw*.282);*/
+  margin: 50px auto 50px auto;
 }
 
 .summaryCard:not(aside) {
