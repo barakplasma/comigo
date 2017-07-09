@@ -12,7 +12,11 @@
 body > header > h1 {
   display: inline-block;
   text-align: left;
-  margin: 15px 0 15px 30px;
+  /*margin: 10px 0 15px 30px;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 /*hides h1 text*/
@@ -27,35 +31,38 @@ body > header > h1 > a:visited
 body > header {
   background-color: white;
   height: calc(100vw / (1440 / 66));
-  /*min-height: 66px;*/
-  min-height: 300px;
+  min-height: 66px;
+  /*min-height: 300px;*/
   width: 100vw;
   position: fixed;
   top: 0;
+  z-index: 0;
 }
 
 /*vert align in the middle via hack*/
-body > header > * {
-  margin: -45px 0 -45px 30px;
+body > header > nav {
+  /*margin: -50px 0 -50px 0px;*/
 }
 
 /*https://codepen.io/patskot/pen/sumop*/
 nav {
+  display: inline-block;
   text-align:right;
-  /*width: 100%;*/
   background: white;
   padding: 0;
   margin: 0;
-  height: 40px;
-  position:relative;
+  height: 3rem;
+  position:fixed;
+  right: 0;
+  top: 10px;
 }
 
 nav ul {
   background: white;
   list-style:none;
-  padding:0 20px;
+  padding:0 0px;
   margin: 0;
-  height: 40px;
+  height: 3rem;
 }
 
 
@@ -67,11 +74,11 @@ nav ul li {
 nav ul li a {
   color: white;
   display:block;
-  padding:0px 40px;
+  padding:0px 10px;
   text-decoration:none;
   float: left;
-  height: 40px;
-  line-height: 40px;
+  height: 3rem;
+  line-height: 3rem;
 }
 
 nav ul li:hover {
@@ -94,7 +101,7 @@ nav ul ul {
   display:none;
   width: 100%;
   position: absolute;
-  top: 40px;
+  top: 3rem;
   left: 0px;
 }
 
