@@ -28,14 +28,35 @@ section {
 
 /*Define height for the following sections using `vw` - Solutions*/
 .comigoSolutions {
-  width: 49vw;
-  height: 50vw;
+  width: 50vw;
+  height: calc(100vw/2.37);
+  min-height: 588px;
   display: inline-block;
 }
+
+.comigoSolutions:nth-child(1) {
+  float: left;
+}
+.comigoSolutions:nth-child(2) {
+  float: right;
+}
+
 
 .comigoSolutions img {
   max-width: 25vw;
   max-height: 25vw;
+}
+
+.comigoSolutions img,
+.comigoSolutions h2,
+.comigoSolutions a
+{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.comigoSolutions p {
+  margin-left: 30px;
 }
 
 .enhanceOTTButton {
