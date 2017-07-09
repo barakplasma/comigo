@@ -45,6 +45,7 @@ section {
 .comigoSolutions img {
   max-width: 25vw;
   max-height: 25vw;
+  height: 23vw;
 }
 
 .comigoSolutions img,
@@ -59,7 +60,14 @@ section {
   margin-left: 30px;
 }
 
-.enhanceOTTButton {
+.redCircuitBoardImageBG h2,
+.redCircuitBoardImageBG p
+{
+  color: white;
+}
+
+body > main > article.whyComigo > section:nth-child(3) > div.comigoSolutions.redCircuitBoardImageBG > a
+{
   background-color: #fff;
   color: #f14848;
 }
