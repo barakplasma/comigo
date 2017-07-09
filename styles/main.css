@@ -96,12 +96,18 @@ color: #f14848;
 /*add padding-top to main header to accommodate the body fixed header*/
 /*- Center headline and texts based on the screenshots*/
 main header {
-  min-height: 816px;
+  /*min-height: 816px;*/
   text-align: center;
-  padding-top: 20vw;
+  padding-top: 15vw;
   padding-bottom: 20vw;
   color: white;
   margin-top: calc(100vw / (1440 / 66));
+  height: 43vw;
+}
+
+main header h1 {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .textAlignLeft {
