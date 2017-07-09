@@ -11,6 +11,7 @@
 
 body > header > h1 {
   display: inline;
+  text-align: left;
 }
 
 body, nav {
@@ -19,11 +20,14 @@ body, nav {
   margin: 0;
 }
 
-/*todo Use `fixed` positioning on the top header to make it stick to the top of the viewport.    - Note that all content below the top header will jump up once we set it to fixed, so we’ll need to add some space to compensate for it*/
+/*Use `fixed` positioning on the top header to make it stick to the top of the viewport.- Note that all content below the top header will jump up once we set it to fixed, so we’ll need to add some space to compensate for it*/
 body > header {
   background-color: white;
   height: calc(100vw / (1440 / 66));
   min-height: 66px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
 }
 
 /*todo vert align in the middle*/
