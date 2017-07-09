@@ -27,7 +27,8 @@ body > header > h1 > a:visited
 body > header {
   background-color: white;
   height: calc(100vw / (1440 / 66));
-  min-height: 66px;
+  /*min-height: 66px;*/
+  min-height: 300px;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -38,47 +39,121 @@ body > header > * {
   margin: -45px 0 -45px 30px;
 }
 
-/*.inlineElement {*/
-/*display: inline;*/
+/*https://codepen.io/patskot/pen/sumop*/
+nav {
+  text-align:right;
+  /*width: 100%;*/
+  background: white;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  position:relative;
+}
+
+nav ul {
+  background: white;
+  list-style:none;
+  padding:0 20px;
+  margin: 0;
+  height: 40px;
+}
+
+
+nav ul li {
+  display: inline-block;
+}
+
+
+nav ul li a {
+  color: white;
+  display:block;
+  padding:0px 40px;
+  text-decoration:none;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+
+nav ul li:hover > a{
+  /*color:#FFFFFF;*/
+}
+
+nav ul li:hover > ul {
+  display:block;
+}
+
+nav ul ul {
+  background: white;
+  padding:0;
+  text-align: center;
+  display:none;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+/*!*.inlineElement {*!*/
+/*!*display: inline;*!*/
+/*!*}*!*/
+
+/*!*nav ul li a,*!*/
+/*!*nav ul li,*!*/
+/*!*nav ul,*!*/
+/*!*help from https://stackoverflow.com/a/20920305/7798922*!*/
+/*.mainMenu*/
+/*{*/
+  /*display: inline-block;*/
+  /*position: relative;*/
+  /*!*right: 0;*!*/
+  /*!*float: right;*!*/
+  /*border: 1px solid hotpink;*/
 /*}*/
 
-/*nav ul li a,*/
-/*nav ul li,*/
-/*nav ul,*/
-/*help from https://stackoverflow.com/a/20920305/7798922*/
-.mainMenu
-{
-  display: inline-block;
-  float: right;
-}
+/*.mainMenu_listElement {*/
+  /*!*float: left;*!*/
+  /*display: inline-block;*/
+  /*!*margin: 0 1rem;*!*/
+/*}*/
 
-.mainMenu_listElement {
-  float: left;
-  margin: 0 1rem;
-}
-
-.mainMenu_mainMenuLink {
-  display: inherit;
-}
-
-/*Hide the sub menu’s, make the links appear on the right*/
-/*nav ul ul,*/
-.mainMenu_subMenu {
-  display: none;
-  width: 100px;
-  height: 20px;
-  /*position: relative;*/
+/*.mainMenu_listElement:hover .mainMenu_subMenu {*/
+  /*display: block;*/
+  /*width: 100px;*/
+  /*height: 20px;*/
+  /*background-color: white;*/
+  /*position: absolute;*/
   /*top: 1rem;*/
-}
+  /*left: 0;*/
+  /*!*right: 0;*!*/
+/*}*/
 
-.mainMenu_subMenuLink {
-  display: inherit;
-}
+/*.mainMenu_mainMenuLink {*/
+  /*display: inherit;*/
+/*}*/
 
-/*body header nav ul li:hover > a ~ ul*/ /*accurate, but doesn't mean shit*/
-.mainMenu_subMenu--parentHovered {
-  display: inherit;
-}
+/*!*Hide the sub menu’s, make the links appear on the right*!*/
+/*!*nav ul ul,*!*/
+/*.mainMenu_subMenu {*/
+  /*display: none;*/
+/*}*/
 
-/* Make top nav sub nav’s have width and height (don’t worry about the layout)*/
-/*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*/
+/*!*todo header has relative pos, submenu is absolute with top 100% for each sub level*!*/
+/*.mainMenu_subMenuLink {*/
+  /*display: inline;*/
+  /*position: absolute;*/
+  /*top: 100%;*/
+  /*border: 1px solid darkorange;*/
+/*}*/
+
+/*!*body header nav ul li:hover > a ~ ul*! !*accurate, but doesn't mean shit*!*/
+/*.mainMenu_subMenu--parentHovered {*/
+  /*display: inherit;*/
+/*}*/
+
+/*!* Make top nav sub nav’s have width and height (don’t worry about the layout)*!*/
+/*!*- TODO The links should fill the whole box (subnav items should be clickable anywhere in the box)*!*/
