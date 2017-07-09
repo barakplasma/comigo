@@ -22,6 +22,12 @@ html {
   font-size: 100%;
 }
 
+body, nav {
+  box-sizing: border-box;
+  max-width: 100vw;
+  margin: 0;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -79,8 +85,9 @@ color: #f14848;
   background: linear-gradient(to right, white, transparent);
 }
 
+/*todo add padding-top to body to accommodate the fixed header*/
+
 /*- Center headline and texts based on the screenshots*/
-/*noinspection CssOptimizeSimilarProperties,CssOptimizeSimilarProperties*/
 main header {
   min-height: 50vw;
   text-align: center;
